@@ -81,8 +81,8 @@ public class TestForum implements PropertiesDB, Autorization {
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.navigate().to(adress);
-		driver.manage().window().setPosition(new Point(-3000, 0));
-	//	driver.manage().window().maximize();
+		//driver.manage().window().setPosition(new Point(-3000, 0));
+	driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 }
 	
