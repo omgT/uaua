@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="uaua.chrome" parallel="false" >
+<parameter name="browser" value="chrome" />
+
+
+	<test name="ChromeTest">
+		<classes>
+		<class name="tests.uaua.TestDetskoePitanie" />
+			<!-- <class name="tests.uaua.TestMenu" />
+			<class name="tests.uaua.TestServicesRasschetnue" />
+			<class name="tests.uaua.TestUaUaCommonService" />
+			
+			<class name="tests.uaua.TestForum" />
+			<class name="tests.uaua.TestObjavlinija" /> -->
+		</classes>
+	</test>
+
+	 <!--<test name="IETest">
+		<parameter name="browser" value="ie" />
+		<classes>
+			<class name="tests.uaua.TestMenu" />
+			<class name="tests.uaua.TestServicesRasschetnue" />
+			<class name="tests.uaua.TestUaUaCommonService" />
+			<class name="tests.uaua.TestDetskoePitanie" />
+			<class name="tests.uaua.TestForum" />
+			<class name="tests.uaua.TestObjavlinija" />
+		</classes>
+	</test>
+
+	<test name="OperaTest">
+		<parameter name="browser" value="opera" />
+		<classes>
+			<class name="tests.uaua.TestMenu" />
+			<class name="tests.uaua.TestServicesRasschetnue" />
+			<class name="tests.uaua.TestUaUaCommonService" />
+			<class name="tests.uaua.TestDetskoePitanie" />
+			<class name="tests.uaua.TestForum" />
+			<class name="tests.uaua.TestObjavlinija" />
+		</classes>
+	</test>
+
+	<test name="SafariTest">
+		<parameter name="browser" value="safari" />
+		<classes>
+			<class name="tests.uaua.TestMenu" />
+			<class name="tests.uaua.TestServicesRasschetnue" />
+			<class name="tests.uaua.TestUaUaCommonService" />
+			<class name="tests.uaua.TestDetskoePitanie" />
+			<class name="tests.uaua.TestForum" />
+			<class name="tests.uaua.TestObjavlinija" />
+		</classes>
+	</test> -->
+
+</suite>

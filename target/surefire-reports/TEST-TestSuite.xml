@@ -1,0 +1,1412 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="424" failures="9" name="TestSuite" time="2,381.098" errors="0" skipped="338">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin"/>
+    <property name="java.vm.version" value="25.45-b02"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\UaUa"/>
+    <property name="java.runtime.version" value="1.8.0_45-b14"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="basedir" value="D:\UaUa"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="surefire.real.class.path" value="C:\Users\Admin\AppData\Local\Temp\surefirebooter4294638491223300161.jar"/>
+    <property name="java.io.tmpdir" value="C:\Users\Admin\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jre1.8.0_45\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_45/bin/server;C:/Program Files/Java/jre1.8.0_45/bin;C:/Program Files/Java/jre1.8.0_45/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\7-Zip;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Apache Software Foundation\apache-maven-3.3.3\bin;D:\eclipse;;."/>
+    <property name="surefire.test.class.path" value="D:\UaUa\target\test-classes;D:\UaUa\target\classes;C:\Users\Admin\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\Admin\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\Admin\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Admin\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Admin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\Admin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\Admin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\Admin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Admin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-server\2.45.0\selenium-server-2.45.0.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\Admin\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\Admin\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.9\servlet-api-2.5-6.1.9.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\jetty-repacked\7.6.1\jetty-repacked-7.6.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\Admin\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\net\lightbody\bmp\browsermob-proxy\2.0-beta-9\browsermob-proxy-2.0-beta-9.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.5.3\slf4j-api-1.5.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-jdk14\1.5.3\slf4j-jdk14-1.5.3.jar;C:\Users\Admin\.m2\repository\com\google\sitebricks\sitebricks\0.8.3\sitebricks-0.8.3.jar;C:\Users\Admin\.m2\repository\org\mvel\mvel2\2.0.18\mvel2-2.0.18.jar;C:\Users\Admin\.m2\repository\com\intellij\annotations\7.0.3\annotations-7.0.3.jar;C:\Users\Admin\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Admin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Admin\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar;C:\Users\Admin\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\Admin\.m2\repository\xom\xom\1.0\xom-1.0.jar;C:\Users\Admin\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar;C:\Users\Admin\.m2\repository\com\ibm\icu\icu4j\2.6.1\icu4j-2.6.1.jar;C:\Users\Admin\.m2\repository\saxpath\saxpath\1.0-FCS\saxpath-1.0-FCS.jar;C:\Users\Admin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\xstream\xstream\1.3.1\xstream-1.3.1.jar;C:\Users\Admin\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.4.1\jsoup-1.4.1.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.10\freemarker-2.3.10.jar;C:\Users\Admin\.m2\repository\com\google\inject\extensions\guice-multibindings\3.0\guice-multibindings-3.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.7.1\jackson-core-asl-1.7.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.7.1\jackson-mapper-asl-1.7.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\Users\Admin\.m2\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-server\7.3.0.v20110203\jetty-server-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-continuation\7.3.0.v20110203\jetty-continuation-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-http\7.3.0.v20110203\jetty-http-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-io\7.3.0.v20110203\jetty-io-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-servlet\7.3.0.v20110203\jetty-servlet-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-security\7.3.0.v20110203\jetty-security-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;C:\Users\Admin\.m2\repository\net\sf\uadetector\uadetector-resources\2013.10\uadetector-resources-2013.10.jar;C:\Users\Admin\.m2\repository\net\sf\uadetector\uadetector-core\0.9.10\uadetector-core-0.9.10.jar;C:\Users\Admin\.m2\repository\net\sf\qualitycheck\quality-check\1.3\quality-check-1.3.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;C:\Users\Admin\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Admin"/>
+    <property name="user.timezone" value="Europe/Helsinki"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="user.name" value="Admin"/>
+    <property name="java.class.path" value="D:\UaUa\target\test-classes;D:\UaUa\target\classes;C:\Users\Admin\.m2\repository\org\testng\testng\6.8.8\testng-6.8.8.jar;C:\Users\Admin\.m2\repository\org\beanshell\bsh\2.0b4\bsh-2.0b4.jar;C:\Users\Admin\.m2\repository\com\beust\jcommander\1.27\jcommander-1.27.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-java\2.45.0\selenium-java-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.45.0\selenium-chrome-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-htmlunit-driver\2.45.0\selenium-htmlunit-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.15\htmlunit-2.15.jar;C:\Users\Admin\.m2\repository\xalan\xalan\2.7.1\xalan-2.7.1.jar;C:\Users\Admin\.m2\repository\xalan\serializer\2.7.1\serializer-2.7.1.jar;C:\Users\Admin\.m2\repository\commons-collections\commons-collections\3.2.1\commons-collections-3.2.1.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-lang3\3.3.2\commons-lang3-3.3.2.jar;C:\Users\Admin\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.15\htmlunit-core-js-2.15.jar;C:\Users\Admin\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\Admin\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\Admin\.m2\repository\net\sourceforge\nekohtml\nekohtml\1.9.21\nekohtml-1.9.21.jar;C:\Users\Admin\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.14\cssparser-0.9.14.jar;C:\Users\Admin\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-websocket\8.1.15.v20140411\jetty-websocket-8.1.15.v20140411.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-util\8.1.15.v20140411\jetty-util-8.1.15.v20140411.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.45.0\selenium-ie-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\jna\3.4.0\jna-3.4.0.jar;C:\Users\Admin\.m2\repository\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.45.0\selenium-safari-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-support\2.45.0\selenium-support-2.45.0.jar;C:\Users\Admin\.m2\repository\org\webbitserver\webbit\0.4.14\webbit-0.4.14.jar;C:\Users\Admin\.m2\repository\io\netty\netty\3.5.2.Final\netty-3.5.2.Final.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.45.0\selenium-leg-rc-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.45.0\selenium-firefox-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.45.0\selenium-remote-driver-2.45.0.jar;C:\Users\Admin\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Users\Admin\.m2\repository\com\google\code\gson\gson\2.3.1\gson-2.3.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-api\2.45.0\selenium-api-2.45.0.jar;C:\Users\Admin\.m2\repository\com\google\guava\guava\18.0\guava-18.0.jar;C:\Users\Admin\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Users\Admin\.m2\repository\org\apache\commons\commons-exec\1.1\commons-exec-1.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\selenium-server\2.45.0\selenium-server-2.45.0.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.48\bcprov-jdk15on-1.48.jar;C:\Users\Admin\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.48\bcpkix-jdk15on-1.48.jar;C:\Users\Admin\.m2\repository\mx4j\mx4j-tools\3.0.1\mx4j-tools-3.0.1.jar;C:\Users\Admin\.m2\repository\org\mortbay\jetty\servlet-api-2.5\6.1.9\servlet-api-2.5-6.1.9.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\jetty-repacked\7.6.1\jetty-repacked-7.6.1.jar;C:\Users\Admin\.m2\repository\org\seleniumhq\selenium\jetty-rc-repacked\5\jetty-rc-repacked-5.jar;C:\Users\Admin\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\Admin\.m2\repository\org\yaml\snakeyaml\1.8\snakeyaml-1.8.jar;C:\Users\Admin\.m2\repository\commons-codec\commons-codec\1.9\commons-codec-1.9.jar;C:\Users\Admin\.m2\repository\net\lightbody\bmp\browsermob-proxy\2.0-beta-9\browsermob-proxy-2.0-beta-9.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-api\1.5.3\slf4j-api-1.5.3.jar;C:\Users\Admin\.m2\repository\org\slf4j\slf4j-jdk14\1.5.3\slf4j-jdk14-1.5.3.jar;C:\Users\Admin\.m2\repository\com\google\sitebricks\sitebricks\0.8.3\sitebricks-0.8.3.jar;C:\Users\Admin\.m2\repository\org\mvel\mvel2\2.0.18\mvel2-2.0.18.jar;C:\Users\Admin\.m2\repository\com\intellij\annotations\7.0.3\annotations-7.0.3.jar;C:\Users\Admin\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Admin\.m2\repository\commons-lang\commons-lang\2.5\commons-lang-2.5.jar;C:\Users\Admin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Admin\.m2\repository\jaxen\jaxen\1.1.1\jaxen-1.1.1.jar;C:\Users\Admin\.m2\repository\jdom\jdom\1.0\jdom-1.0.jar;C:\Users\Admin\.m2\repository\xom\xom\1.0\xom-1.0.jar;C:\Users\Admin\.m2\repository\xerces\xmlParserAPIs\2.6.2\xmlParserAPIs-2.6.2.jar;C:\Users\Admin\.m2\repository\com\ibm\icu\icu4j\2.6.1\icu4j-2.6.1.jar;C:\Users\Admin\.m2\repository\saxpath\saxpath\1.0-FCS\saxpath-1.0-FCS.jar;C:\Users\Admin\.m2\repository\javax\servlet\servlet-api\2.5\servlet-api-2.5.jar;C:\Users\Admin\.m2\repository\com\thoughtworks\xstream\xstream\1.3.1\xstream-1.3.1.jar;C:\Users\Admin\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Admin\.m2\repository\org\jsoup\jsoup\1.4.1\jsoup-1.4.1.jar;C:\Users\Admin\.m2\repository\org\freemarker\freemarker\2.3.10\freemarker-2.3.10.jar;C:\Users\Admin\.m2\repository\com\google\inject\extensions\guice-multibindings\3.0\guice-multibindings-3.0.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.7.1\jackson-core-asl-1.7.1.jar;C:\Users\Admin\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.7.1\jackson-mapper-asl-1.7.1.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpmime\4.2.3\httpmime-4.2.3.jar;C:\Users\Admin\.m2\repository\net\sf\jopt-simple\jopt-simple\3.2\jopt-simple-3.2.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant\1.8.2\ant-1.8.2.jar;C:\Users\Admin\.m2\repository\org\apache\ant\ant-launcher\1.8.2\ant-launcher-1.8.2.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-server\7.3.0.v20110203\jetty-server-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-continuation\7.3.0.v20110203\jetty-continuation-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-http\7.3.0.v20110203\jetty-http-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-io\7.3.0.v20110203\jetty-io-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-servlet\7.3.0.v20110203\jetty-servlet-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\org\eclipse\jetty\jetty-security\7.3.0.v20110203\jetty-security-7.3.0.v20110203.jar;C:\Users\Admin\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\Admin\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\Admin\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\Admin\.m2\repository\com\google\inject\extensions\guice-servlet\3.0\guice-servlet-3.0.jar;C:\Users\Admin\.m2\repository\net\sf\uadetector\uadetector-resources\2013.10\uadetector-resources-2013.10.jar;C:\Users\Admin\.m2\repository\net\sf\uadetector\uadetector-core\0.9.10\uadetector-core-0.9.10.jar;C:\Users\Admin\.m2\repository\net\sf\qualitycheck\quality-check\1.3\quality-check-1.3.jar;C:\Users\Admin\.m2\repository\com\google\code\findbugs\jsr305\2.0.1\jsr305-2.0.1.jar;C:\Users\Admin\.m2\repository\javax\annotation\jsr250-api\1.0\jsr250-api-1.0.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpclient\4.3.6\httpclient-4.3.6.jar;C:\Users\Admin\.m2\repository\org\apache\httpcomponents\httpcore\4.3.3\httpcore-4.3.3.jar;C:\Users\Admin\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jre1.8.0_45"/>
+    <property name="sun.java.command" value="C:\Users\Admin\AppData\Local\Temp\surefirebooter4294638491223300161.jar C:\Users\Admin\AppData\Local\Temp\surefire2316429246378291152tmp C:\Users\Admin\AppData\Local\Temp\surefire7072976581016295078tmp"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="ru"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_45"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jre1.8.0_45\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jre1.8.0_45\lib\resources.jar;C:\Program Files\Java\jre1.8.0_45\lib\rt.jar;C:\Program Files\Java\jre1.8.0_45\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_45\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_45\lib\jce.jar;C:\Program Files\Java\jre1.8.0_45\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_45\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_45\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="localRepository" value="C:\Users\Admin\.m2\repository"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="tests.uaua.TestMenu" name="setUp" time="0">
+    <failure message="Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.remote.UnreachableBrowserException">org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:593)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:304)
+	at tests.uaua.TestMenu.setUp(TestMenu.java:74)
+Caused by: org.apache.http.conn.HttpHostConnectException: Connect to 127.0.0.1:7055 [/127.0.0.1] failed: Connection refused: connect
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:142)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:319)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:363)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:219)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:195)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:86)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:108)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:57)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:144)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:72)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:133)
+	at org.openqa.selenium.firefox.internal.NewProfileExtensionConnection.execute(NewProfileExtensionConnection.java:165)
+	at org.openqa.selenium.firefox.FirefoxDriver$LazyCommandExecutor.execute(FirefoxDriver.java:362)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:572)
+	... 33 more
+Caused by: java.net.ConnectException: Connection refused: connect
+	at java.net.DualStackPlainSocketImpl.waitForConnect(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.doConnect(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(Unknown Source)
+	at java.net.AbstractPlainSocketImpl.connect(Unknown Source)
+	at java.net.PlainSocketImpl.connect(Unknown Source)
+	at java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.net.Socket.connect(Unknown Source)
+	at org.apache.http.conn.socket.PlainConnectionSocketFactory.connectSocket(PlainConnectionSocketFactory.java:72)
+	at org.apache.http.impl.conn.HttpClientConnectionOperator.connect(HttpClientConnectionOperator.java:125)
+	... 48 more
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.067">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.007">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M03" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.005">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test1to3M06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M02" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test3to6M06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M06" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test6to9M07" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M06" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="test9to16M07" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG02" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMG05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMM01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN05" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMN07" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMP01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMP02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMP03" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMP04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMP05" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMR01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMR02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMR03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMR04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMR05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS0201" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS03" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.004">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS05" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS07" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS08" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.003">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS09" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.008">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS10" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS11" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="testMS12" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestMenu" name="tearDown" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testAKB01" time="32.949"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testAKB02" time="13.612"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testBBR01" time="146.829"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testBM01" time="356.577"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testKP01" time="13.55"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testPDG01" time="16.706"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testRDR01" time="33.5"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testRPMP01" time="33.327"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testSOP01" time="37.129"/>
+  <testcase classname="tests.uaua.TestServicesRasschetnue" name="testSTP01" time="23.988"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR01" time="15.069"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR02" time="9.629"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR03" time="8.7"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR04" time="4.916"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR05" time="8.965"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testCDR06" time="3.821"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS01" time="16.267"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS02" time="8.598"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS03" time="12.432"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS04" time="6.799"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS05" time="11.065"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDS06" time="3.681"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch01" time="14.471"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch02" time="8.938"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch03" time="8.264"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch04" time="4.693"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch05" time="10.342"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDSch06" time="3.264"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT01" time="13.823"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT02" time="8.537"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT03" time="8.71"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT04" time="5.256"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT05" time="12.209"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testDT06" time="4.012"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB01" time="16.603"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB02" time="9.03"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB03" time="9.252"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB04" time="5.45"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB05" time="9.886"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testKdB06" time="4.429"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS01" time="13.77"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS02" time="8.348"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS03" time="7.769"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS04" time="4.972"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS05" time="11.516"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testMS06" time="4.052"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ01" time="15.02"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ02" time="7.639"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ03" time="9.095"/>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ04" time="5.525">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testOZ04(TestUaUaCommonService.java:806)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="5.672">
+    <failure message="Window not found. The browser window may have been closed.
+Command duration or timeout: 145 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcb0c346-996d-43cc-ac01-677ecb5f6c2d" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Command duration or timeout: 145 milliseconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: bcb0c346-996d-43cc-ac01-677ecb5f6c2d
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:508)
+	at tests.uaua.TestUaUaCommonService.takeScreenShotOnFailure(TestUaUaCommonService.java:1403)
+Caused by: org.openqa.selenium.NoSuchWindowException: Window not found. The browser window may have been closed.
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.nsCommandProcessor.prototype.execute(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12343)
+	at &lt;anonymous class&gt;.Dispatcher.executeAs/&lt;(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9061)
+	at &lt;anonymous class&gt;.Resource.prototype.handle(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9208)
+	at &lt;anonymous class&gt;.Dispatcher.prototype.dispatch(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:9155)
+	at &lt;anonymous class&gt;.WebDriverServer/&lt;.handle(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:12128)
+	at &lt;anonymous class&gt;.createHandlerFunc/&lt;(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2058)
+	at &lt;anonymous class&gt;.ServerHandler.prototype.handleResponse(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:2391)
+	at &lt;anonymous class&gt;.Connection.prototype.process(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1227)
+	at &lt;anonymous class&gt;.RequestReader.prototype._handleResponse(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1681)
+	at &lt;anonymous class&gt;.RequestReader.prototype._processBody(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1529)
+	at &lt;anonymous class&gt;.RequestReader.prototype.onInputStreamReady(file:///C:/Users/Admin/AppData/Local/Temp/anonymous1171910987368487196webdriver-profile/extensions/fxdriver@googlecode.com/components/httpd.js:1397)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="5.677">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testOZ06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRSD01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRSD02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRSD03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRSD04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRSD05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod02" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testRod06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSDB01" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSDB02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSDB06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSDB07" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSS06" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testSch06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testTF01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testTF08" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.002">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testTF09" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU05" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testU06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK01" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK02" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK03" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK04" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK05" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="beforeMethod" time="0.001">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="testZhK06" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="takeScreenShotOnFailure" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestUaUaCommonService" name="tearDown" time="0">
+    <skipped/>
+  </testcase>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd01" time="45.086"/>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd02" time="43.087"/>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd03" time="50.104"/>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd04" time="55.278"/>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd05" time="31.184"/>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd06" time="35.486">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestObjavlinija.testAd06(TestObjavlinija.java:189)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestObjavlinija" name="testAd08" time="10.011">
+    <failure message="expected:&lt;116&gt; but was:&lt;118&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;116&gt; but was:&lt;118&gt;
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at info.uaua.ObjavlinijaObjects.findAddedObyavlenia(ObjavlinijaObjects.java:89)
+	at tests.uaua.TestObjavlinija.testAd08(TestObjavlinija.java:196)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestForum" name="testForI01" time="16.305"/>
+  <testcase classname="tests.uaua.TestForum" name="testForN01" time="51.529">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestForum.testForN01(TestForum.java:239)
+</failure>
+    <system-err>org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 30.20 seconds
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff8f4da8-98cb-4344-9ca5-65caae123a96
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at info.uaua.ForumObjects.deleteFirstChernovik(ForumObjects.java:101)
+	at tests.uaua.TestForum.testForN01(TestForum.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9587)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</system-err>
+  </testcase>
+  <testcase classname="tests.uaua.TestForum" name="testForP01" time="3.058">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at tests.uaua.TestForum.testForP01(TestForum.java:141)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestForum" name="testForP02" time="33.306">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestForum.testForP02(TestForum.java:162)
+</failure>
+    <system-err>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;Head&apos;]//a[@href=&apos;http://www.uaua.info/user/login/&apos;]&quot;}
+Command duration or timeout: 30.25 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=40.0.2, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: ff8f4da8-98cb-4344-9ca5-65caae123a96
+*** Element info: {Using=xpath, value=.//*[@id=&apos;Head&apos;]//a[@href=&apos;http://www.uaua.info/user/login/&apos;]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at info.uaua.ForumObjects.correctMailAutorisationOnForum(ForumObjects.java:163)
+	at tests.uaua.TestForum.testForP02(TestForum.java:152)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:714)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:74)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:345)
+	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:1009)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;.//*[@id=&apos;Head&apos;]//a[@href=&apos;http://www.uaua.info/user/login/&apos;]&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;LogicPower2&apos;, ip: &apos;169.254.119.146&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_45&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/Admin/AppData/Local/Temp/anonymous3793983272758131578webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+</system-err>
+  </testcase>
+  <testcase classname="tests.uaua.TestForum" name="testForP03" time="33.572">
+    <failure message="null" type="java.lang.AssertionError">java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestForum.testForP03(TestForum.java:185)
+</failure>
+  </testcase>
+  <testcase classname="tests.uaua.TestForum" name="testForP05" time="7.598"/>
+  <testcase classname="tests.uaua.TestForum" name="testForS01" time="14.772"/>
+  <testcase classname="tests.uaua.TestForum" name="testForU01" time="5.925"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP011" time="7.831"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP012" time="5.592"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP013" time="0"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP021" time="10.757"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP022" time="24.378"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP03" time="8.301"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP032" time="22.234"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP041" time="8.549"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP042" time="22.139"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP051" time="10.14"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP052" time="22.594"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP061" time="8.711"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP062" time="25.056"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP071" time="12.193"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP072" time="19.809"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP081" time="9.171"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP082" time="19.758"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP09" time="19.718"/>
+  <testcase classname="tests.uaua.TestDetskoePitanie" name="testDetP10" time="4.467"/>
+</testsuite>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [uaua.chrome]">
+  <parameter name="browser" value="chrome"/>
+  <test name="ChromeTest(failed)">
+    <classes>
+      <class name="tests.uaua.TestDetskoePitanie">
+        <methods>
+          <include name="testDetP022"/>
+          <include name="testDetP09"/>
+          <include name="testDetP042"/>
+          <include name="testDetP061"/>
+          <include name="testDetP062"/>
+          <include name="testDetP081"/>
+          <include name="testDetP082"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.uaua.TestDetskoePitanie -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [uaua.chrome] -->

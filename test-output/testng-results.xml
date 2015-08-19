@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="57397" started-at="2015-08-18T14:51:51Z" finished-at="2015-08-18T14:52:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="57397" started-at="2015-08-18T14:51:51Z" finished-at="2015-08-18T14:52:49Z">
+      <class name="tests.uaua.TestDetskoePitanie">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53]" name="setUp" is-config="true" duration-ms="32538" started-at="2015-08-18T17:51:51Z" finished-at="2015-08-18T17:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53]" name="beforeMethod" is-config="true" duration-ms="4020" started-at="2015-08-18T17:52:24Z" finished-at="2015-08-18T17:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="testDetP011()[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53]" name="testDetP011" duration-ms="11681" started-at="2015-08-18T17:52:28Z" description="ID = &lt;DetP011&gt; ѕроверка перехода на детское питание с uaua + скрин" finished-at="2015-08-18T17:52:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDetP011 -->
+        <test-method status="PASS" signature="takeScreenShotOnFailure(org.testng.ITestResult, java.lang.reflect.Method)[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53]" name="takeScreenShotOnFailure" is-config="true" duration-ms="2005" started-at="2015-08-18T17:52:39Z" finished-at="2015-08-18T17:52:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDetP011 status=SUCCESS method=TestDetskoePitanie.testDetP011()[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53] output={null}]]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[public void tests.uaua.TestDetskoePitanie.testDetP011() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShotOnFailure -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.uaua.TestDetskoePitanie@1a407d53]" name="tearDown" is-config="true" duration-ms="7138" started-at="2015-08-18T17:52:41Z" finished-at="2015-08-18T17:52:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.uaua.TestDetskoePitanie -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

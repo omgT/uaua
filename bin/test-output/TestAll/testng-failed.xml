@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="Objavlinija(failed)">
+    <classes>
+      <class name="info.uaua.TestDetskoePitanie">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- info.uaua.TestDetskoePitanie -->
+      <class name="info.uaua.TestObjavlinija">
+        <methods>
+          <include name="testAd06"/>
+          <include name="tearDown"/>
+          <include name="testAd08"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- info.uaua.TestObjavlinija -->
+    </classes>
+  </test> <!-- Objavlinija(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

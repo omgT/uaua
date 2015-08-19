@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [uaua.firefox]">
+  <parameter name="browser" value="firefox"/>
+  <test name="FirefoxTest(failed)">
+    <classes>
+      <class name="tests.uaua.TestDetskoePitanie">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.uaua.TestDetskoePitanie -->
+      <class name="tests.uaua.TestForum">
+        <methods>
+          <include name="testForP01"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testForN01"/>
+          <include name="testForP02"/>
+          <include name="testForP03"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+        </methods>
+      </class> <!-- tests.uaua.TestForum -->
+      <class name="tests.uaua.TestObjavlinija">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testAd08"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.uaua.TestObjavlinija -->
+      <class name="tests.uaua.TestServicesRasschetnue">
+        <methods>
+          <include name="testBM01"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testRDR01"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="testSOP01"/>
+        </methods>
+      </class> <!-- tests.uaua.TestServicesRasschetnue -->
+      <class name="tests.uaua.TestMenu">
+        <methods>
+          <include name="test3to6M01"/>
+          <include name="testMN0201"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testMS0201"/>
+          <include name="setUp"/>
+          <include name="test9to16M01"/>
+          <include name="test9to16M0201"/>
+          <include name="test3to6M0201"/>
+          <include name="test6to9M0201"/>
+          <include name="testMG0201"/>
+          <include name="test6to9M01"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- tests.uaua.TestMenu -->
+      <class name="tests.uaua.TestUaUaCommonService">
+        <methods>
+          <include name="testRSD02"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="beforeMethod"/>
+          <include name="testSch03"/>
+        </methods>
+      </class> <!-- tests.uaua.TestUaUaCommonService -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [uaua.firefox] -->

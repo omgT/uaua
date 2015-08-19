@@ -1,0 +1,9 @@
+*.zip
+*.log
+*.pdf
+*.xls
+*.jpg
+*.har
+*.html
+*.gif
+*.png
