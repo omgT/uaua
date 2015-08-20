@@ -1,0 +1,197 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 196, Failures: 30, Errors: 0, Skipped: 0, Time elapsed: 4,017.718 sec <<< FAILURE!
+testAd06(tests.uaua.TestObjavlinija)  Time elapsed: 58.065 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<116> but was:<118>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at info.uaua.ObjavlinijaObjects.findAddedObyavlenia(ObjavlinijaObjects.java:89)
+	at tests.uaua.TestObjavlinija.testAd06(TestObjavlinija.java:182)
+
+testAd08(tests.uaua.TestObjavlinija)  Time elapsed: 10.532 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<116> but was:<118>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at info.uaua.ObjavlinijaObjects.findAddedObyavlenia(ObjavlinijaObjects.java:89)
+	at tests.uaua.TestObjavlinija.testAd08(TestObjavlinija.java:192)
+
+testRPMP01(tests.uaua.TestServicesRasschetnue)  Time elapsed: 19.718 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestServicesRasschetnue.testRPMP01(TestServicesRasschetnue.java:211)
+
+testCDR03(tests.uaua.TestUaUaCommonService)  Time elapsed: 4.128 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testCDR03(TestUaUaCommonService.java:1071)
+
+testDSch03(tests.uaua.TestUaUaCommonService)  Time elapsed: 3.862 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testDSch03(TestUaUaCommonService.java:1255)
+
+testRSD02(tests.uaua.TestUaUaCommonService)  Time elapsed: 6.482 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<613> but was:<2>
+	at org.testng.AssertJUnit.fail(AssertJUnit.java:59)
+	at org.testng.AssertJUnit.failNotEquals(AssertJUnit.java:364)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:80)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:245)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:252)
+	at tests.uaua.TestUaUaCommonService.testRSD02(TestUaUaCommonService.java:135)
+
+testRod03(tests.uaua.TestUaUaCommonService)  Time elapsed: 3.191 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testRod03(TestUaUaCommonService.java:1349)
+
+testSS03(tests.uaua.TestUaUaCommonService)  Time elapsed: 3.925 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testSS03(TestUaUaCommonService.java:884)
+
+testSch01(tests.uaua.TestUaUaCommonService)  Time elapsed: 38.313 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testSch01(TestUaUaCommonService.java:1129)
+
+testSch03(tests.uaua.TestUaUaCommonService)  Time elapsed: 4.195 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testSch03(TestUaUaCommonService.java:1162)
+
+testU03(tests.uaua.TestUaUaCommonService)  Time elapsed: 3.387 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestUaUaCommonService.testU03(TestUaUaCommonService.java:977)
+
+test1to3M02(tests.uaua.TestMenu)  Time elapsed: 0.932 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test1to3M02(TestMenu.java:413)
+
+test1to3M03(tests.uaua.TestMenu)  Time elapsed: 31.42 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test1to3M03(TestMenu.java:446)
+
+test1to3M05(tests.uaua.TestMenu)  Time elapsed: 0.574 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test1to3M05(TestMenu.java:476)
+
+test3to6M01(tests.uaua.TestMenu)  Time elapsed: 0.679 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test3to6M01(TestMenu.java:258)
+
+test3to6M0201(tests.uaua.TestMenu)  Time elapsed: 30.218 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test3to6M0201(TestMenu.java:855)
+
+test3to6M04(tests.uaua.TestMenu)  Time elapsed: 0.874 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test3to6M04(TestMenu.java:885)
+
+test3to6M05(tests.uaua.TestMenu)  Time elapsed: 0.771 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test3to6M05(TestMenu.java:900)
+
+test6to9M01(tests.uaua.TestMenu)  Time elapsed: 0.519 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test6to9M01(TestMenu.java:180)
+
+test6to9M0201(tests.uaua.TestMenu)  Time elapsed: 30.234 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test6to9M0201(TestMenu.java:933)
+
+test6to9M06(tests.uaua.TestMenu)  Time elapsed: 1.289 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test6to9M06(TestMenu.java:1012)
+
+test9to16M0201(tests.uaua.TestMenu)  Time elapsed: 30.179 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.test9to16M0201(TestMenu.java:1044)
+
+testMG0201(tests.uaua.TestMenu)  Time elapsed: 30.276 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.testMG0201(TestMenu.java:364)
+
+testMN0201(tests.uaua.TestMenu)  Time elapsed: 30.293 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.testMN0201(TestMenu.java:539)
+
+testMN05(tests.uaua.TestMenu)  Time elapsed: 0.704 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.testMN05(TestMenu.java:602)
+
+testMS0201(tests.uaua.TestMenu)  Time elapsed: 30.31 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestMenu.testMS0201(TestMenu.java:649)
+
+testForN01(tests.uaua.TestForum)  Time elapsed: 16.134 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<1> but was:<3>
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:101)
+	at org.testng.AssertJUnit.assertEquals(AssertJUnit.java:108)
+	at tests.uaua.TestForum.testForN01(TestForum.java:215)
+
+testForP01(tests.uaua.TestForum)  Time elapsed: 2.827 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:494)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at org.testng.Assert.assertTrue(Assert.java:52)
+	at tests.uaua.TestForum.testForP01(TestForum.java:124)
+
+testForP02(tests.uaua.TestForum)  Time elapsed: 33.525 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestForum.testForP02(TestForum.java:145)
+
+testForP03(tests.uaua.TestForum)  Time elapsed: 33.712 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.fail(Assert.java:101)
+	at tests.uaua.TestForum.testForP03(TestForum.java:168)
+

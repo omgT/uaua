@@ -33,9 +33,10 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
 import org.testng.annotations.Test;
+
 import com.gargoylesoftware.htmlunit.BrowserVersion;
+
 import data.Autorization;
 import data.CommonMethods;
 import data.PropertiesDB;
@@ -75,14 +76,15 @@ public class TestForum implements PropertiesDB, Autorization {
 				
 				driver = new FirefoxDriver();
 				driver.get(adress);
-				System.out.println("TestDetskoePitanie BeforeSuite 1 ");
+				System.out.println("Test forum START ");
+				
 		}
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.navigate().to(adress);
-		//driver.manage().window().setPosition(new Point(-3000, 0));
-	driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-3000, 0));
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 }
 	
@@ -112,7 +114,7 @@ public class TestForum implements PropertiesDB, Autorization {
 		} catch(Exception e){ 
 			Assert.fail(); 
 		}
-		System.out.println("TestForum Test  4");
+		
 	} 
 	
 		@Test(description = "ID = <ForP01> НЕ Авторизированный пользователь не видит 'подписаться'", alwaysRun = true)

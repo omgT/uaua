@@ -34,7 +34,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
 import org.testng.annotations.Test;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
@@ -74,16 +73,17 @@ public class TestMenu implements PropertiesDB, Autorization {
 				
 				driver = new FirefoxDriver();
 				driver.get(adress);
-				System.out.println("TestDetskoePitanie BeforeSuite 1 ");
+				System.out.println("Test menu START ");
+				
 		}
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.navigate().to(adress);
-		//driver.manage().window().setPosition(new Point(-3000, 0));
-		driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-3000, 0));
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
-		System.out.println("Menu BeforeMethod 2");
+		
 }
 
 	@Test(description = "ID = <MP01> Планирование беременности", alwaysRun = true)

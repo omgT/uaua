@@ -9,14 +9,14 @@
 	 
 		<classes>
 			<class name="tests.uaua.TestObjavlinija" /> 
-			<!--<class name="tests.uaua.TestServicesRasschetnue" />
+			<class name="tests.uaua.TestServicesRasschetnue" />
 			<class name="tests.uaua.TestUaUaCommonService" />
 			
 			<class name="tests.uaua.TestMenu" /> 
 			<class name="tests.uaua.TestForum" /> 
 			<class name="tests.uaua.TestDetskoePitanie" /> 
 			<class name="tests.uaua.TestUaUaCommonService" /> 
-			  <class name="tests.uaua.TestNetwork" />  -->
+			  <!--<class name="tests.uaua.TestNetwork" />  -->
 			
 			
 		</classes>

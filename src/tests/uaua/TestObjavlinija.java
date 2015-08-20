@@ -31,7 +31,6 @@ import java.util.concurrent.TimeUnit;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.Point;
 import org.openqa.selenium.TakesScreenshot;
@@ -41,6 +40,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 
 public class TestObjavlinija  implements PropertiesDB, Autorization {
@@ -78,14 +78,14 @@ public class TestObjavlinija  implements PropertiesDB, Autorization {
 				
 				driver = new FirefoxDriver();
 				driver.get(adress);
-				System.out.println("TestDetskoePitanie BeforeSuite 1 ");
+				System.out.println("Test objavlenija START ");
 		}
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.navigate().to(adress);
-		//driver.manage().window().setPosition(new Point(-3000, 0));
-		driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-3000, 0));
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
 }
 	
@@ -105,7 +105,7 @@ public class TestObjavlinija  implements PropertiesDB, Autorization {
 	}
 	}
 	
-	/*@Test(description = "ID = <Ad02> Проверка перехода на ПРОДАЮ, навигация по страницам + скрин", alwaysRun = true)
+	@Test(description = "ID = <Ad02> Проверка перехода на ПРОДАЮ, навигация по страницам + скрин", alwaysRun = true)
 	public void testAd02() {
 		try {
 		serviceAdvert = new ObjavlinijaObjects(driver);
@@ -191,7 +191,7 @@ public class TestObjavlinija  implements PropertiesDB, Autorization {
 		serviceAdvert = new ObjavlinijaObjects(driver);
 		serviceAdvert.clickOnObjavlenijaPage().findAddedObyavlenia();
 	}
-	*/
+	
 		 
 	/*@Test(description = "ID = <Ad07> проверка записи в БАЗЕ данных, удаление", alwaysRun = true, dependsOnMethods = "testAd08" )
 	public void testAd07() throws Exception {

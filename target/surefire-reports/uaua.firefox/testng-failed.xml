@@ -4,79 +4,6 @@
   <parameter name="browser" value="firefox"/>
   <test name="FirefoxTest(failed)">
     <classes>
-      <class name="tests.uaua.TestMenu">
-        <methods>
-          <include name="test1to3M01"/>
-          <include name="testMS05"/>
-          <include name="test6to9M02"/>
-          <include name="testMG04"/>
-          <include name="testMM01"/>
-          <include name="setUp"/>
-          <include name="testMG05"/>
-          <include name="testMS02"/>
-          <include name="testMS03"/>
-          <include name="testMS06"/>
-          <include name="testMS01"/>
-          <include name="testMS04"/>
-          <include name="testMS07"/>
-          <include name="test9to16M01"/>
-          <include name="test1to3M06"/>
-          <include name="test6to9M05"/>
-          <include name="testMG01"/>
-          <include name="test1to3M04"/>
-          <include name="test6to9M07"/>
-          <include name="test1to3M05"/>
-          <include name="test3to6M0201"/>
-          <include name="test6to9M06"/>
-          <include name="test9to16M07"/>
-          <include name="test6to9M0201"/>
-          <include name="test9to16M06"/>
-          <include name="test9to16M03"/>
-          <include name="testMG0201"/>
-          <include name="test6to9M04"/>
-          <include name="test9to16M05"/>
-          <include name="testMG02"/>
-          <include name="test1to3M02"/>
-          <include name="test6to9M01"/>
-          <include name="test9to16M02"/>
-          <include name="test1to3M03"/>
-          <include name="test6to9M03"/>
-          <include name="test9to16M04"/>
-          <include name="testMG03"/>
-          <include name="testMN0201"/>
-          <include name="test3to6M04"/>
-          <include name="test3to6M01"/>
-          <include name="test3to6M03"/>
-          <include name="testMN03"/>
-          <include name="testMP01"/>
-          <include name="testMN01"/>
-          <include name="testMN04"/>
-          <include name="testMP02"/>
-          <include name="testMN07"/>
-          <include name="testMP05"/>
-          <include name="testMR03"/>
-          <include name="test3to6M06"/>
-          <include name="testMN05"/>
-          <include name="testMP03"/>
-          <include name="testMR01"/>
-          <include name="testMR04"/>
-          <include name="test3to6M05"/>
-          <include name="testMN06"/>
-          <include name="testMP04"/>
-          <include name="testMR02"/>
-          <include name="test1to3M0201"/>
-          <include name="testMR05"/>
-          <include name="test9to16M0201"/>
-          <include name="testMN02"/>
-          <include name="test3to6M02"/>
-          <include name="testMS0201"/>
-          <include name="testMS10"/>
-          <include name="testMS11"/>
-          <include name="testMS12"/>
-          <include name="testMS08"/>
-          <include name="testMS09"/>
-        </methods>
-      </class> <!-- tests.uaua.TestMenu -->
       <class name="tests.uaua.TestObjavlinija">
         <methods>
           <include name="testAd06"/>
@@ -87,6 +14,29 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- tests.uaua.TestObjavlinija -->
+      <class name="tests.uaua.TestMenu">
+        <methods>
+          <include name="test3to6M04"/>
+          <include name="test3to6M01"/>
+          <include name="testMN0201"/>
+          <include name="beforeMethod"/>
+          <include name="takeScreenShotOnFailure"/>
+          <include name="testMS0201"/>
+          <include name="setUp"/>
+          <include name="testMN05"/>
+          <include name="test3to6M05"/>
+          <include name="test1to3M05"/>
+          <include name="test9to16M0201"/>
+          <include name="test3to6M0201"/>
+          <include name="test6to9M06"/>
+          <include name="test6to9M0201"/>
+          <include name="testMG0201"/>
+          <include name="test1to3M02"/>
+          <include name="test6to9M01"/>
+          <include name="tearDown"/>
+          <include name="test1to3M03"/>
+        </methods>
+      </class> <!-- tests.uaua.TestMenu -->
       <class name="tests.uaua.TestDetskoePitanie">
         <methods>
           <include name="beforeMethod"/>
@@ -97,54 +47,18 @@
       </class> <!-- tests.uaua.TestDetskoePitanie -->
       <class name="tests.uaua.TestUaUaCommonService">
         <methods>
-          <include name="testU05"/>
-          <include name="testSS06"/>
-          <include name="testSS03"/>
-          <include name="testSS04"/>
-          <include name="testSch01"/>
-          <include name="testSS05"/>
-          <include name="testSS01"/>
-          <include name="testSS02"/>
-          <include name="setUp"/>
-          <include name="testSch06"/>
-          <include name="testSch05"/>
-          <include name="testSch04"/>
-          <include name="testSch03"/>
-          <include name="testOZ06"/>
-          <include name="testSch02"/>
-          <include name="testTF01"/>
-          <include name="testOZ04"/>
-          <include name="testOZ05"/>
-          <include name="testZhK05"/>
-          <include name="testSDB01"/>
-          <include name="testRod03"/>
-          <include name="testTF09"/>
-          <include name="testSDB02"/>
-          <include name="testSDB07"/>
-          <include name="testZhK06"/>
-          <include name="testSDB06"/>
-          <include name="testTF08"/>
           <include name="testRSD02"/>
-          <include name="testU04"/>
-          <include name="testZhK02"/>
-          <include name="testRSD03"/>
-          <include name="testZhK03"/>
-          <include name="testU02"/>
-          <include name="testZhK04"/>
+          <include name="testSS03"/>
+          <include name="testSch01"/>
+          <include name="testDSch03"/>
           <include name="takeScreenShotOnFailure"/>
-          <include name="testRSD01"/>
           <include name="testU03"/>
-          <include name="testRod06"/>
-          <include name="testU01"/>
-          <include name="testRSD04"/>
-          <include name="testRod05"/>
-          <include name="testRSD05"/>
-          <include name="testRod04"/>
-          <include name="testZhK01"/>
-          <include name="testRod02"/>
-          <include name="testRod01"/>
-          <include name="testU06"/>
+          <include name="testRod03"/>
+          <include name="setUp"/>
+          <include name="testCDR03"/>
+          <include name="tearDown"/>
           <include name="beforeMethod"/>
+          <include name="testSch03"/>
         </methods>
       </class> <!-- tests.uaua.TestUaUaCommonService -->
       <class name="tests.uaua.TestForum">
@@ -165,6 +79,7 @@
           <include name="takeScreenShotOnFailure"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="testRPMP01"/>
         </methods>
       </class> <!-- tests.uaua.TestServicesRasschetnue -->
     </classes>

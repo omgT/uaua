@@ -31,7 +31,7 @@
 				<version>2.4.3</version>
 				<configuration>
 					<suiteXmlFiles>
-						<suiteXmlFile>D:\UaUa\src\testng.xml</suiteXmlFile>
+						<suiteXmlFile>D:\UaUa\UauaTests\src\testng.xml</suiteXmlFile>
 
 					</suiteXmlFiles>
 				</configuration>

@@ -11,9 +11,11 @@ import data.Autorization;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Method;
+
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 /*import org.openqa.selenium.ie.InternetExplorerDriver;
@@ -29,7 +31,6 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
-
 import org.testng.annotations.Test;
 import org.openqa.selenium.TakesScreenshot;
 
@@ -69,21 +70,22 @@ public class TestDetskoePitanie extends CommonMethods implements PropertiesDB, A
 			
 			driver = new FirefoxDriver();
 			driver.get(adress);
-			System.out.println("TestDetskoePitanie BeforeSuite 1 ");
+			System.out.println("Test DP START ");
+			
 	}
 	
 	@BeforeMethod
 	public void beforeMethod() {
 		driver.navigate().to(adress);
-		//driver.manage().window().setPosition(new Point(-3000, 0));
-		driver.manage().window().maximize();
+		driver.manage().window().setPosition(new Point(-3000, 0));
+		//driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);	
-		System.out.println("TestDetskoePitanie BeforeMethod 2");
+		
 }
 
 	@Test
 	public void testDetP013() throws IOException {
-		System.out.println("TestDetskoePitanie Test 4");
+		
 	}
 	
 	@Test(description = "ID = <DetP011> Проверка перехода на детское питание с uaua + скрин", alwaysRun = true)
@@ -97,7 +99,7 @@ public class TestDetskoePitanie extends CommonMethods implements PropertiesDB, A
 		} catch(Exception e){ 
 			Assert.fail(); 
 		}
-		System.out.println("TestDetskoePitanie Test 3");
+		
 	}
 	
 	
@@ -110,7 +112,7 @@ public class TestDetskoePitanie extends CommonMethods implements PropertiesDB, A
 		} catch(Exception e){ 
 			Assert.fail(); 
 		}
-		System.out.println("TestDetskoePitanie Test 4");
+		
 	}
 	  	
 		@Test(description = "ID = <DetP021> Проверка перехода на РЕЦЕПТЫ через 'рецепты', навигация по страницам ", alwaysRun = true)
